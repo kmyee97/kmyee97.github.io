@@ -129,22 +129,7 @@
     <section id="highlights">
         <div class="container">
             <h2>Technical Highlights</h2>
-            <div class="highlight">
-                <h3>Platform Architecture</h3>
-                <pre>
-ASTRAL Platform → API Endpoints → Trade Validation Services → Oracle DB (Processing 3B+ entries daily)
-                </pre>
-            </div>
-            <div class="highlight">
-                <h3>Code Snippet: Spring Boot Controller</h3>
-                <pre><code class="language-java">@RestController
-public class TradeValidationController {
-    @PostMapping("/validate")
-    public ResponseEntity<ValidationResult> validateTrade(@RequestBody Trade trade) {
-        return ResponseEntity.ok(validationService.validate(trade));
-    }
-}</code></pre>
-            </div>
+
             <div class="highlight">
                 <h3>Performance Wins</h3>
                 <table>
