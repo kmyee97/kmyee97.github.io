@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahlil Yee - Senior Backend Developer</title>
+    <meta name="description" content="Portfolio of Kahlil Yee, a senior backend software developer with 5+ years of enterprise experience, specializing in scalable systems. Based in Tempe, AZ.">
+    <meta name="keywords" content="backend developer, senior engineer, software developer, Tempe AZ, enterprise systems">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Specialist - Software Development & Engineering</h1>
+            <p>5+ Years Building Scalable Enterprise Systems</p>
+            <div class="cta-buttons">
+                <a href="#experience" class="btn primary">View Experience</a>
+                <a href="resume.pdf" class="btn secondary" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Software developer with 5+ years at Charles Schwab in Advisor Services Technology team, specializing in Java backend development for ASTRAL (Advisor Service Trade Allocation) platform. Expert in building/maintaining trade validation services processing 3B+ queue entries daily. Proven track record leading CI/CD migrations and delivering production-scale fintech solutions. Currently based in Tempe, AZ, and open to opportunities in senior backend engineering roles.</p>
+            <div class="metrics">
+                <span class="metric">3B+ queue entries processed daily</span>
+                <span class="metric">Millions of accounts enabled</span>
+                <span class="metric">Billions in daily transactions handled</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="role">
+                    <h3>Specialist - Software Development & Engineering <span>Charles Schwab, Sep 2022 - Present</span></h3>
+                    <ul>
+                        <li>Contributed to successful platform dial-up by modernizing and optimizing API endpoints, enabling millions of accounts and handling billions in daily transactions.</li>
+                        <li>Demonstrated collaboration and knowledge sharing with senior engineers, providing documentation and code reviews.</li>
+                        <li>Harnessed GitHub Copilot and created custom agent markdown files to boost development productivity.</li>
+                        <li>Enhanced Splunk logging, reducing daily log volume by over 200% for quota compliance.</li>
+                        <li>Upgraded Spring Boot applications to resolve security vulnerabilities and refactor deprecated code.</li>
+                        <li>Migrated team code repositories to GitHub for continuity.</li>
+                    </ul>
+                </div>
+                <div class="role">
+                    <h3>Associate Software Developer <span>Charles Schwab, Jan 2021 - Sep 2022</span></h3>
+                    <ul>
+                        <li>Designed and implemented caching artifact improving performance and reusability across applications.</li>
+                        <li>Delivered production-critical microservices backend endpoints and platform enhancements.</li>
+                        <li>Supported infrastructure, automation, and operations including Control-M scheduler, Bamboo, AppDynamics, DNS/ASG setup.</li>
+                    </ul>
+                </div>
+                <div class="role">
+                    <h3>Ruby on Rails Developer Intern <span>Thinq.TV, Jun 2020 - Aug 2020</span></h3>
+                    <ul>
+                        <li>Ensured unit testing for optimal browser functionality.</li>
+                        <li>Collaborated with UX/UI Designers on full website redesigns improving navigation and visuals.</li>
+                        <li>Migrated website to current Bootstrap version for better loading performance.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Ruby on Rails</li>
+                        <li>Restful API</li>
+                        <li>RabbitMQ</li>
+                        <li>Git</li>
+                        <li>Postman</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>Oracle SQL</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Linux/Unix</li>
+                        <li>Front End (HTML, CSS, JS, Bootstrap)</li>
+                        <li>CI/CD</li>
+                        <li>Microservices</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="highlights">
+        <div class="container">
+            <h2>Technical Highlights</h2>
+            <div class="highlight">
+                <h3>Platform Architecture</h3>
+                <pre>
+ASTRAL Platform → API Endpoints → Trade Validation Services → Oracle DB (Processing 3B+ entries daily)
+                </pre>
+            </div>
+            <div class="highlight">
+                <h3>Code Snippet: Spring Boot Controller</h3>
+                <pre><code class="language-java">@RestController
+public class TradeValidationController {
+    @PostMapping("/validate")
+    public ResponseEntity<ValidationResult> validateTrade(@RequestBody Trade trade) {
+        return ResponseEntity.ok(validationService.validate(trade));
+    }
+}</code></pre>
+            </div>
+            <div class="highlight">
+                <h3>Performance Wins</h3>
+                <table>
+                    <tr><th>Optimization</th><th>Before</th><th>After</th><th>Improvement</th></tr>
+                    <tr><td>Log Volume</td><td>High</td><td>Reduced 200%</td><td>Quota Compliant</td></tr>
+                    <tr><td>Platform Dial-up</td><td>Limited</td><td>Millions of accounts</td><td>Scalable</td></tr>
+                </table>
+            </div>
+            <div class="highlight">
+                <h3>Tech Debt Reduction</h3>
+                <p>Upgraded Spring Boot applications to resolve security vulnerabilities and refactored deprecated code for better maintainability.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Download my full resume for detailed experience and qualifications.</p>
+            <a href="resume.pdf" class="btn primary" download>Download Resume (PDF)</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Phone: (480) 440-0740</p>
+                <p>Email: <a href="mailto:kmyee97@gmail.com">kmyee97@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/kahlilyee/" target="_blank">linkedin.com/in/kahlilyee</a></p>
+                <p>GitHub: <a href="https://www.github.com/kmyee97" target="_blank">github.com/kmyee97</a></p>
+            </div>
+            <form action="mailto:kmyee97@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kahlil Yee. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

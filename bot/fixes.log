@@ -1,0 +1,1 @@
+2026-02-21: Fixed yfinance MultiIndex columns for single ticker by droplevel(1) in fetch_data. Now df['Close'] is Series, price scalar.\n

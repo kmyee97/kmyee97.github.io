@@ -1,0 +1,67 @@
+﻿
+
+Kahlil Yee
+Specialist - Software Development & Engineering
+ 
+Contact
+ 
+Address 
+Tempe, AZ, 85284
+Phone 
+(480) 440-0740
+E-mail 
+kmyee97@gmail.com
+LinkedIn
+https://www.linkedin.com/in/kahlilyee/
+GitHub
+https://www.github.com/kmyee97
+ 
+Technical Skills
+ 
+Java
+
+Spring Boot
+Restful API
+RabbitMQ
+Git
+Postman
+Oracle SQL
+SQL
+C/C++
+C#
+Python
+Linux/Unix
+Front End (HTML, CSS, JavaScript, Bootstrap)
+Ruby on Rails
+
+Summary
+Software developer with 5+ years at Charles Schwab in Advisor Services Technology team, specializing in Java backend development for ASTRAL (Advisor Service Trade Allocation) platform. Expert in building/maintaining trade validation services processing 3B+ queue entries daily. Proven track record leading CI/CD migrations and delivering production-scale fintech solutions.
+ 
+Work Experience
+Specialist - Software Development & Engineering
+Charles Schwab | Phoenix, AZ | Sep 2022 - Present
+    • Contributed to a successful dial-up of the platform by modernizing and optimizing API endpoints, scaling and enabling millions of accounts and able to handle billions of dollars in daily transactions
+    • Demonstrated strong collaboration and knowledge sharing with senior engineers, providing documentation, and contributing to code reviews
+    • Harnessed GitHub Copilot and created custom agent markdown files to increase development productivity and efficiency
+    • Enhanced Splunk logging to reduce the daily log volume by over 200% achieving quota compliance
+    • Upgraded multiple Spring Boot Applications to resolve security vulnerabilities, compatibility issues, and refactored deprecated code
+    • Successfully migrated all team code repositories to GitHub ensuring continuity 
+
+Associate Software Developer
+Charles Schwab | Phoenix, AZ | Jan 2021 - Sep 2022
+    • Designed and implemented a caching artifact that improved the performance and reusability across multiple applications
+    • Delivered production-critical microservices backend endpoints and platform enhancements
+    • Supported infrastructure, automation, and operations, including Control-M scheduler, Bamboo, AppDynamics updates, and DNS/ASG setup
+
+Ruby on Rails Developer Intern
+Thinq.TV | Scottsdale, AZ | Jun 2020 - Aug - 2020
+    • Ensured unit testing to deliver optimal browser functionality
+    • Collaborated with UX/UI Designers and completed full redesigns of the existing website to improve navigation and enhance visuals
+    • Migrated the website to the current version of Bootstrap to reduce CSS and to have better loading performance
+
+Education
+Bachelor of Science | Computer Science        Aug 2016 - May 2020
+Arizona State University | Tempe, AZ 
+    • Graduated with 3.77 GPA 
+    • Dean's List May 2016 – Spring 2019 
+.
